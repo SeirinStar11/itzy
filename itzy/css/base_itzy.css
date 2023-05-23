@@ -1,0 +1,55 @@
+* {
+    /* 清除内外边距 */
+    margin: 0;
+    padding: 0;
+    /* 让div盒子大小等于长宽 */
+    box-sizing: border-box;
+}
+/* 去掉li前面的小圆点 */
+li {
+    list-style: none;
+}
+img {
+    border: 0;
+    /* 解决图片底部有空白间隙问题 */
+    vertical-align: middle;
+}
+/* 去掉文字下划线 */
+body {
+    text-decoration: none;
+}
+/* 去掉链接下划线 */
+a {
+    text-decoration: none;
+}
+/* 清除浮动 */
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+.clearfix {
+    *zoom: 1
+}
+button,
+input {
+    /* 去掉默认灰色边框 */
+    border: 0px;
+    /* 去掉点击时的边框 */
+    outline: none;
+}
+/* 主要------------------------------------- */
+a {
+    color: white;
+}
+a:hover {
+    color: rgb(50, 86, 146);
+}
+.l {
+    float: left;
+}
+.r {
+    float: right;
+}

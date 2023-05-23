@@ -1,0 +1,56 @@
+nav ul li:nth-child(5){
+    background-color: rgb(155,22,142,1);
+}
+/* **************登录大盒子**************** */
+.bg {
+    position: relative;
+    background:url(../pic/登录背景.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+.login {
+    position: absolute;
+    float: left;
+    width: 400px;
+    height: 400px;
+    top: 70px;
+    left: 300px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 20px;
+}
+.login .title{
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    color: white;
+}
+.login .txt {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.login input {
+    margin-left: 20px;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 20px;
+    background: transparent;
+    border-bottom: 2px solid #666;
+    font-size: 18px;
+}
+.login .txt input[type="submit"] {
+    padding-left: 0;
+    margin-left: 100px;
+    font-size: 15px;
+    border: 2px solid white;
+    color: white;
+    width: 100px;
+    height: 30px;
+}

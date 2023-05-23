@@ -1,0 +1,34 @@
+/* ********************************正式****************************************** */
+.music {
+    width: 300px;
+    height: 552px;
+    background-color: #eb87e4;
+}
+/* **********旋转图片************** */
+.cd_pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 75px;
+}
+/* **********歌词盒子************** */
+.box {
+    position: relative;
+    width: 250px;
+    height: 283px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    overflow: hidden;
+}
+.lrc {
+    position: absolute;
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+/* ***********播放控件************** */
+.con {
+    margin-top: 20px;
+}
+/* 当前播放的歌词 */

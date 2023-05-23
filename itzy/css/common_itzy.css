@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(244, 215, 240);
+    /* height: 4000px; */
+    width: 1020px;
+    margin: 0 auto;
+    border: 10px solid white;
+}
+/* *********************1、大图*********************** */
+.big {
+    height: 400px;
+    background: url(../专辑封面/大图.jpg) no-repeat;
+    background-size: cover;
+}
+/* *********************2、导航栏*********************** */
+nav {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(233,77,202);
+    box-shadow: 2px 4px 5px #c5b9b9;
+    border-radius: 0 0 5px 5px;
+    z-index: 999;
+}
+nav ul li{
+    padding: 0 70px;
+    float: left;
+    line-height: 30px;
+}
+/* ************************last、底部***************************** */
+footer {
+    background-color:rgb(219, 213, 218);
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+}

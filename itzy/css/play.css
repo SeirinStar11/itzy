@@ -1,0 +1,60 @@
+/* ********************轮播图专属样式************************** */
+/* 放轮播图的盒子 */
+.pic {
+    border: 5px solid white;
+    position: relative;
+    overflow: hidden;
+}
+.pic ul {
+    position: absolute;
+}
+.pic ul li {
+    float: left;
+}
+.pic .l {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.3);
+    width: 20px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 0 5px 5px 0;
+    text-align: center;
+}
+.pic .l:hover {
+    border: 1px solid white;
+}
+.pic .r {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 5px 0 0 5px;
+    text-align: center;
+} 
+.pic .r:hover {
+    border: 1px solid white;
+}
+.pic ol {
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+}
+.pic ol li {
+    float: left;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.5);
+}
+/* 当前小圆圈 */
+.pic ol .current {
+    background-color: white;
+}

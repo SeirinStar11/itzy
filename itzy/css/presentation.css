@@ -1,0 +1,76 @@
+nav ul li:nth-child(2){
+    background-color: rgb(155,22,142,1);
+}
+.team p {
+    padding-top: 47px;
+    float: left;
+    font-size: 17px;
+    text-indent: 2em;
+    color: #98769d;
+    padding-left: 40px;
+}
+.team p a{
+    color: skyblue;
+}
+.team p a:hover{
+    color: rgb(32, 127, 165);
+}
+.team .team_play {
+    float: right;
+    background-color: skyblue;
+    width: 339px;
+    height: 284px;
+    margin-top: 40px;
+}
+/* 团体轮播图的特殊样式 */
+.team .team_play .pic {
+    width: 339px;
+    height: 284px;
+}
+.team .team_play .pic ul {
+    /* 几张图则扩大为多少的1.5倍 */
+    width: 550%;
+}
+.team .team_play img {
+    width:339px;
+}
+/* *****************4、个人简介************************* */
+.person {
+    margin-top: 20px;
+    height: 1600px;
+}
+.person .member .detail {
+    margin-left: 40px;
+}
+.person .member .detail h1 {
+    font-size: 26px;
+    color: #98769d;
+}
+.person .member .detail :nth-child(n) {
+    margin-top: 12px;
+}
+.person .member .detail span {
+    width: 350px;
+    display: block;
+    font-size: 18px;
+}
+.person .member {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    height: 309px;
+    /* background-color: aqua; */
+    border:4px dashed #98769d;
+}
+/* 个人介绍特殊样式 */
+.person .pic {
+    width: 206px;
+    height: 300px;
+}
+.person .pic ul {
+    width: 450%;
+}
+.person img {
+    width: 206px;
+}
+/* yeji的特殊样式 */

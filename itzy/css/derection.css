@@ -1,0 +1,67 @@
+nav ul li:nth-child(4){
+    background-color: rgb(155,22,142,1);
+}
+/* **************直线************** */
+.line {
+    width: 805px;
+    margin: 30px auto;
+}
+hr {
+    display: inline-block;
+    margin-top: 20px;
+    width: 300px;
+    border: 1px solid #666;
+}
+.line span {
+    padding:0 70px;
+}
+/* ****************账号指路**************** */
+.account {
+    width: 100%;
+}
+.account img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.account h1,
+.account li {
+    float: left;
+}
+.account ul {
+    height: 100px;
+}
+.account h1 {
+    padding-left: 90px;
+}
+.account li {
+    padding: 0 10px;
+}
+/* ********************直拍***************** */
+.variety {
+    width: 805px;
+    height: 600px;
+    margin:0 auto;
+}
+.variety ul li {
+    float: left;
+    width: 250px;
+    height: 230px;
+    margin: 10px 9px;
+    background-color: aliceblue;
+}
+.variety ul li:nth-child(3n) {
+    margin-right: 0;
+}
+.variety ul li img {
+    display: block;
+    width: 100%;
+}
+.variety ul li span {
+    display: block;
+    padding: 0 8px;
+    font-size: 14px;
+    color: #666;
+    text-indent: 2em;
+    margin-top: 15px;
+}
